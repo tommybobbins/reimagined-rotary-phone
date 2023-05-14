@@ -13,7 +13,7 @@ The same tf version that was used to perform the migration would be used.
 
 Where does local state for workspaces get stored ?
 
-terraform.tfstate.d/<workspace>
+    terraform.tfstate.d/<workspace>
 
 ## Values
 
