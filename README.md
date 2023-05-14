@@ -31,4 +31,4 @@ Resource blocks define the resources you want to create, update, or manage as pa
 ## Terraform unlock
 
 $ terraform unlock 
-Rmemove the lock on the state for the current configuration
+The terraform force-unlock command can be used to remove the lock on the Terraform state for the current configuration. Another option is to use the "terraform state rm" command followed by the "terraform state push" command to forcibly overwrite the state on the remote backend, effectively removing the lock. It's important to note that these commands should be used with caution, as they can potentially cause conflicts and data loss if not used properly.
